@@ -31,3 +31,6 @@ The user interface is designed to be visually appealing and user-friendly. JavaS
 - **Safety-Certified Daycares and Preschools:** Offering safety products like corner guards, door stoppers, and safety straps for furniture to create a secure environment.<br>
 - **Childcare Professionals:** Providing reliable safety gear for nannies, babysitters, and childcare professionals to ensure a safe environment for children.<br>
 - **Educational Institutions:** Offering safety supplies for classrooms and play areas in schools and educational institutions with early childhood programs to promote a secure learning environment.<br>
+- **Pediatrician Offices:** Equipping pediatrician offices with safety products like childproofing kits and first aid supplies to educate parents on child safety measures during appointments.
+- **Online Parenting Communities:**  Partnering with online parenting forums and communities to provide safety product recommendations and resources for childproofing homes.
+- **Childcare Facilities:**  Collaborating with daycare centers and after-school programs to supply safety equipment and conduct child safety workshops for staff and parents to ensure a secure environment for children.
