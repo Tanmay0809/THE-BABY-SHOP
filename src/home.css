@@ -1,0 +1,62 @@
+/* home.css */
+
+.home-container {
+  text-align: center; /* Align text to center */
+}
+
+.welcome-text {
+  font-size: 36px; /* Set font size */
+  margin-top: 20px; /* Add margin to create space */
+  animation: slide-in 1s ease; /* Define animation */
+}
+
+.categories-heading {
+  font-size: 32px; /* Set font size */
+  margin-top: 40px; /* Add margin to create space */
+  margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px; /* Reduce the gap between category boxes */
+  margin: 20px; /* Add margin to create space */
+  padding: 20px; /* Reduce padding */
+}
+
+.category-box {
+  background-color: #BFEA7C; /* Change background color to light green */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box-shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Include box-shadow in transition */
+}
+
+.category-box:hover {
+  transform: scale(1.1); /* Enlarge the grid to 1.10x on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow effect on hover */
+}
+
+.category-box h3 {
+  margin-top: 10px; /* Add margin to create space */
+  color: #333333;
+}
+
+.category-image {
+  width: 100%; /* Ensure image fills the container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px;
+  object-fit: cover; /* Ensure image covers the container */
+}
+
+/* Define animation keyframes */
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

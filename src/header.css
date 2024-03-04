@@ -1,0 +1,132 @@
+/* Header.css */
+
+.header {
+  background-color: #FFD700;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px; /* Increased height for better alignment */
+  animation: slide-down 0.5s ease;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 120px;
+  height: auto;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+}
+
+.website-name {
+  margin-left: 10px;
+  font-size: 24px;
+  color: #333;
+}
+
+.search-container {
+  position: relative;
+}
+
+.search-bar {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+  width: 450px;
+  transition: border-color 0.3s ease;
+}
+
+.search-bar:focus {
+  border-color: #FF6347;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.search-icon-img {
+  width: 20px;
+  height: auto;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: baseline; /* Align items at the baseline */
+}
+
+.nav-menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Display headings in a row */
+  align-items: center; /* Align items vertically */
+}
+
+.nav-menu li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.nav-menu li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  transition: font-size 0.3s ease;
+}
+
+.nav-menu li a:hover {
+  font-size: 22px;
+  text-decoration: underline;
+}
+
+.cart-icon {
+  width: 60px; /* Increased cart icon size */
+  height: auto;
+  margin-left: 20px;
+  background-color: transparent;
+}
+
+.cart-link {
+  position: relative;
+}
+
+.cart-hover-icon {
+  width: 24px;
+  height: auto;
+  margin-left: 5px;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.cart-link:hover .cart-hover-icon {
+  opacity: 5;
+}
+
+@keyframes slide-down {
+  from {
+    transform: translateY(-50px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
